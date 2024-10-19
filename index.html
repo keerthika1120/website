@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keerthika's Portfolio</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+rel="stylesheet">
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #000; /* Full black background */
+color: #fff; /* White color for text */
+scroll-behavior: smooth;
+}
+.navbar {
+position: sticky;
+top: 0;
+background-color: #000;
+z-index: 1000;
+margin-bottom: 20px;
+}
+.navbar-brand {
+font-size: 1.5rem;
+}
+.navbar-nav .nav-link {
+color: #fff; /* White color for links */
+padding: 8px 15px;
+text-decoration: none;
+transition: color 0.3s ease;
+}
+.navbar-nav .nav-link:hover {
+color: #ccc; /* Lighter color on hover */
+}
+.section-padding {
+padding: 80px 0;
+}
+.about-section, .projects-section, .skills-section, .contact-section {
+text-align: center;
+background-color: #000; /* Full black background */
+padding: 50px 20px;
+}
+.about-section h1, .projects-section h2, .skills-section h2, .contact-section h2 {
+
+font-size: 2.5em;
+margin-bottom: 20px;
+}
+.about-section p, .projects-section .card-text, .skills-section .card-text, .contact-section p
+{
+max-width: 600px;
+margin: 0 auto;
+line-height: 1.6;
+}
+.projects-section .card, .skills-section .card {
+border: 1px solid #333;
+transition: box-shadow 0.3s ease;
+background-color: #000; /* Full black background for cards */
+color: #fff; /* White text for cards */
+}
+.projects-section .card:hover, .skills-section .card:hover {
+box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+.projects-section .card-title, .skills-section .card-title {
+font-size: 1.5rem;
+margin-bottom: 10px;
+}
+.social-icons a {
+display: inline-block;
+margin: 0 10px;
+}
+</style>
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="#">Portfolio</a>
+
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-
+target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle
+
+navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item">
+<a class="nav-link" href="#about">About</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#projects">Projects</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#skills">Skills</a>
+</li>
+<li class="nav-item">
+
+<a class="nav-link" href="#contact">Contact</a>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<!-- About Section -->
+<section id="about" class="about-section section-padding">
+<div class="container">
+<h1>About Me</h1>
+<p>Hello! My name is Keerthika, I am a student currently pursuing B.Tech in CSE. I
+am passionate about becoming a software engineer.
+I have a keen interest in coding and love exploring the endless possibilities that
+programming offers.
+I am constantly learning new programming languages and techniques, and I am
+excited to apply my skills to create innovative solutions.
+</p>
+</div>
+</section>
+<!-- Projects Section -->
+<section id="projects" class="projects-section section-padding">
+<div class="container">
+<h2 class="mb-2">Projects</h2>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+<div class="col">
+<div class="card h-100">
+<div class="card-body">
+<h5 class="card-title">Attendance Management</h5>
+<p class="card-text">This project is developed using Java. There are admin
+module and student module to manage the admission process of an institution.
+</p>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="card h-100">
+<div class="card-body">
+<h5 class="card-title">Word Generator using Python</h5>
+<p class="card-text">Implementation of basic word generation using random
+characters. Options for controlling word length and character set.</p>
+</div> </div></div></div></div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section section-padding">
+<div class="container">
+<h2 class="mb-3">Skills</h2>
+<div class="row row-cols-1 row-cols-md-3 g-3">
+<div class="col">
+<div class="card h-100 text-center">
+<div class="card-body">
+<h5 class="card-title">Python</h5>
+<p class="card-text"> It is known for its versatility and readability, making
+it a popular choice for beginners and experts alike.</p>
+</div></div></div>
+<div class="col">
+<div class="card h-100 text-center">
+<div class="card-body">
+<h5 class="card-title">Java</h5>
+<p class="card-text">Java is a robust, object-oriented programming language
+widely used for building enterprise-scale applications.</p>
+</div>
+</div>
+</div>
+<div class="col">
+<div class="card h-100 text-center">
+<div class="card-body">
+<h5 class="card-title">C Programming</h5>
+<p class="card-text">C is often used for system programming, including
+developing operating systems and embedded systems.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section id="contact" class="contact-section section-padding">
+<div class="container">
+<h2>Contact Me</h2>
+<p>Email: <a href="mailto:keerthikac@karunya.edu.in" style="color:
+#fff;">keerthikac@karunya.edu.in</a></p>
+<p>Phone: <a href="tel:+123456789" style="color: #fff;">+123456789</a></p>
+</div>
+</section>
+<!-- Footer -->
+<footer class="text-center py-4">
+<p>&copy; 2024 . All rights reserved.</p>
+
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script
+src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script
+src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
